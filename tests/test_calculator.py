@@ -12,7 +12,7 @@ def test_add_boundary_cases():
     assert add(0, 5) == 5
     assert add(-1, -1) == -2
     assert add(1000, -500) == 500
-    
+
 
 # 测试3：异常场景——传入非数字类型（预期会报错，验证函数是否能正确处理）
 def test_add_invalid_input():
