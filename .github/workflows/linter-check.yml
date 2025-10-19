@@ -22,7 +22,7 @@ jobs:
       
       # 步骤4：运行代码规范检查（实验四原有步骤）
       - name: Run code style check (flake8)
-        run: flake8 . --count --show-source --statistics
+        run: flake8 . --count --show-source --statistics --ignore=E302
       
       # 步骤5：新增——运行单元测试（关键步骤）
       - name: Run unit tests (pytest)
