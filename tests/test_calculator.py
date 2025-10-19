@@ -1,6 +1,6 @@
 # 导入pytest测试框架和我们写的add函数
 import pytest
-from ..calculator import add
+from ci_linter_demo.calculator import add
 
 # 测试1：正常场景——两个正数相加
 def test_add_positive_numbers():
